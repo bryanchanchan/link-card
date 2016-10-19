@@ -38,6 +38,7 @@ p {
 
 dl {
   padding: .4em .75em .5em;
+  line-height: .75;
 }
 
 dt {
@@ -48,6 +49,8 @@ dt {
 dd {
   color: #512200;
   font-size: 0.875rem;
+  display: inline-block;
+  padding-left: 5rem;
 }
 
 .btn-wrap {
@@ -56,12 +59,13 @@ dd {
   display: inline-block;
   color: #fff;
   padding: .4em .75em .5em;
+  margin-left: 5.75rem;
 }
 
 .link-card:hover {
   background-color: #9a816d;
 }
 
-.link-card:hover .btn {
-
+.link-card:hover .btn-wrap {
+  background-color: #512200;
 }
