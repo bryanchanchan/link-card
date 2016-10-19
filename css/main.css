@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+header {
+  padding: .5rem
+}
+
 .link-card {
   display: inline-block;
   background-color: #dcd4cd;
@@ -29,16 +33,21 @@ h2 {
   color: #512200;
   font-size: 1.5rem;
   padding: .4em .75em .5em;
+  margin: 0;
 }
 
 p {
   color: #512200;
   padding: .4em .75em .5em;
+  margin: 0;
+  line-height: 1.5;
 }
 
 dl {
   padding: .4em .75em .5em;
   line-height: .75;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 dt {
@@ -59,13 +68,27 @@ dd {
   display: inline-block;
   color: #fff;
   padding: .4em .75em .5em;
-  margin-left: 5.75rem;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .link-card:hover {
-  background-color: #9a816d;
+  background-color: #cabdb2;
 }
 
 .link-card:hover .btn-wrap {
   background-color: #512200;
+}
+
+.btn {
+  font-family: Dosis, sans-serif;
+}
+
+.line {
+  width: 15rem;
+  margin-left: 1rem;
+  margin-top: .75rem;
+  border-top: 1px solid #9a816d;
+  border-bottom: 1px solid #9a816d;
 }
